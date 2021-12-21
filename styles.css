@@ -11,7 +11,7 @@
     overflow:hidden;
     float: left;
     font-size: 30px; 
-    background-color: #000;
+    background-color: #ececec;
     word-spacing:10px;
     padding: 5px
 }
@@ -22,13 +22,13 @@
 }
 
 .nav a {
-    color: red;
+    color: #000fff;
     text-decoration: none;
     padding: 5px
 }
 
 .nav a:hover {
-    color: blue
+    color: #ff0000
 }
 
 .profile img {
@@ -39,4 +39,29 @@
 .intro {
     padding:20px;
     text-align: center;
+}
+
+.intro p {
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+}
+
+/* Contact page */
+.container-contact {
+    width: 80%;
+    margin: auto;
+    overflow: hidden
+}
+
+.contact-info {
+    padding:10%;
+    text-align: center;
+}
+
+.contact-info h1 {
+    font-size:40px
+}
+
+.contact-info p {
+    font-size: 30px;
 }

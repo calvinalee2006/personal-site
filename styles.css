@@ -1,0 +1,42 @@
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 5px;
+    width: 100%;
+    overflow:hidden;
+    float: left;
+    font-size: 30px; 
+    background-color: #000;
+    word-spacing:10px;
+    padding: 5px
+}
+
+.nav li {
+    display: inline;
+    letter-spacing: 4px; 
+}
+
+.nav a {
+    color: red;
+    text-decoration: none;
+    padding: 5px
+}
+
+.nav a:hover {
+    color: blue
+}
+
+.profile img {
+    border-radius: 50%;
+    margin-left:40%;
+}
+
+.intro {
+    padding:20px;
+    text-align: center;
+}
